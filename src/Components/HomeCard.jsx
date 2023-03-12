@@ -7,13 +7,12 @@ function HomeCard({Data}){
     return (
         <section className='grid grid_1'>
         {a && a.map((data,index)=>{
-            console.log(data)
             return (
             <div className="main" id={`id_${index}`} key={index}>
-                <Link to={'/'}><img src={data.src2} alt="logo" /></Link>
+                <Link to={'/'}><img src={data && data.src2} alt="logo" /></Link>
                 <div className="content">
-                    <h1 >{data.name}</h1>       {/*style={{background:'rgba(0, 0, 0, 0.5)',padding:'10px 20px',borderRadius:'10px',margin:'10px 0px'}}*/}
-                    <p style={{background:'rgba(0, 0, 0, 0.5)',padding:'10px 20px',borderRadius:'10px'}}>{data.Category} / Jan 1 2023</p>
+                    <h1 >{data && data.name}</h1>       {/* style={{background:'rgba(0, 0, 0, 0.5)',padding:'10px 20px',borderRadius:'10px',margin:'10px 0px'}} */}
+                    <p style={{background:'rgba(0, 0, 0, 0.5)',padding:'10px 20px',borderRadius:'10px'}}>{data && data.Category} / Jan 1 2023</p>
                 </div>
             </div>
             )
