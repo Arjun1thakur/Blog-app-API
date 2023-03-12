@@ -1,0 +1,82 @@
+
+
+@media only screen and (max-width: 768px){
+    .bottom{
+        display: none;
+    }
+   .Middle{
+    flex-direction: column;
+   }
+   .Middle .main0{
+    width: 100%;
+    margin: 0;
+   }
+   .LatestArcticle{
+    flex-direction: column;
+   }
+   .right .Advertise{
+    width: 100%;
+   }
+   .topPost .TopPost{
+    width: 100%;
+   }
+   .Storiescards{
+    flex-direction: column;
+    }
+    .Storiescards .cardsStories{
+       border-right: 0px;
+       padding: 10px 40px;
+       border-bottom: 2px solid gainsboro;
+    } 
+    .left .main1{
+        flex-direction: column;
+        margin: 0;
+        border-top: 0;
+    }
+    #change{
+        width: 100%;
+        margin: 0;
+    }
+    .cut{
+        flex-direction: column;
+    }
+    .error .msg{
+        width: 80%;
+    }
+    .main1 .content1{
+        width: 100%;
+    }
+    .mainWood .img{
+        height: 50%;
+        width: 80%;
+    }
+    .container{
+        width: 90%;
+    }
+    .mainWood{
+        flex-direction: column;
+    }
+    .mainWood .details{
+        margin: 0px;
+    }
+    .details h1 {
+        font-size: 2rem;
+    }
+    .bottom2{
+        display: block;
+      }
+}
+@media only screen and (max-width: 600px){
+    .grid{
+        display: block;
+    }
+    .error .msg{
+        width: 100%;
+    }
+    .relates{
+        flex-direction: column;
+    }
+    .container{
+        width: 95%;
+    }
+}
